@@ -8,3 +8,10 @@ public:
         return true;
     }
 };
+int main(){
+    int n;
+    cout<<"ENTER THE NUMBER:";
+    cin>>n;
+    isPrime(n);
+    return 0;
+}
